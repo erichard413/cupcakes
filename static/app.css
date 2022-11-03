@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 10px;
+    background-color:black;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+.navbar a:hover{
+    background-color: white;
+    color:black;
+}
+#content {
+    margin:40px;
+}
+.messages p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0, .2);
+}
+.messages .success {
+    background-color: rgba(0,255,0,0.1);
+}
+.messages .error {
+    background-color: rgba(255,0,0,0.1);
+}
+
+.buttn {
+    width: 70px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+    border-style: none;
+    border: solid 1px;
+    border-radius: 10px;
+    color: white;
+}
+.submit {
+    background-color: rgb(31, 133, 218);
+    color: white;
+}
+.edit {
+    background-color: rgb(93, 194, 93);
+    color: white;
+}
+.cancel {
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 103, 197);
+}
+
+h1 {
+    display: inline-block;
+    border: none;
+    margin: 0;
+}
+.cupcake_div img {
+    height: 200px;
+    width: auto;
+}
+.fullpic {
+    height: 400px;
+    width: auto;
+}
+
+input {
+    display: flex
+}
+.cupcake_div {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+}
+.buttons {
+    display: inline-block;
+}
+.cupcake_div div {
+    display: inline-block;
+}
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+.details {
+    vertical-align: top;
+}
+.details p {
+    margin: 0;
+}
+
